@@ -3,7 +3,7 @@ module Players
     def move(board)
       if board.cells[4] == " "
         "5"
-        elsif board.cells[0] == " "
+        elsif board.cells[0] == " " && board.cells[2] == " "
         "1"
         elsif board.cells[2] == " "
         "3"
